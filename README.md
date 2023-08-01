@@ -1,1 +1,2 @@
-# cursos-programacion
+# curso - javascript
+Aprendiendo el lenguaje JavaScript
