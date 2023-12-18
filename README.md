@@ -1,2 +1,2 @@
-# curso - javascript
-Aprendiendo el lenguaje JavaScript
+# practicando - front
+Aprendiendo a realizar el front-end para una página web
