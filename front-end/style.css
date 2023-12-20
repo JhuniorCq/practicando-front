@@ -1,10 +1,36 @@
-#selector {
-    color: red;
-    background-color: aqua;
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: brown;
 }
 
-div {
-    border: 1px solid #000000;
-    width: 20%;
-    min-height: 50px;
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+li:last-child {
+    border-right: none;
+    float: right;
+    border-left: 1px solid black;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+}
+
+.activo {
+    background-color: orange;
+}
+
+li a:hover:not(.activo){
+    background-color: aqua;
+    color: black;
 }
